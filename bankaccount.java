@@ -21,14 +21,14 @@ public class bankaccount
     
     void deposit(){
         Scanner scanner=new Scanner(System.in);
-          System.out.println("Deposit money");
+          System.out.println("Deposit amount");
       double tmp=scanner.nextDouble();
       this.balance=this.balance+tmp;
   }
   
    void withdraw(){
       Scanner scanner=new Scanner(System.in);
-      System.out.println("How much do you want to withdraw");
+      System.out.println("withdrawn amount");
       double tmp=scanner.nextDouble();
       this.balance=this.balance-tmp;
   }
